@@ -114,7 +114,7 @@ public class LinearProbingHash<Key> {
             Scanner input = new Scanner(System.in);
             int option = input.nextInt();
             switch (option) {
-                case 1://Search for an entry in this dictionary in constant time.
+                case 1://Search for an entry in this dictionary.
                     System.out.println("* search for an entry *");
                     System.out.println(" type your entry: ");
                     Scanner input1 = new Scanner(System.in);
@@ -126,7 +126,7 @@ public class LinearProbingHash<Key> {
                         System.out.println(entry+" does not exist in the dictionary!!");
                     }
                     break;
-                case 2://Insert a word to the dictionary in constant time.
+                case 2://Insert a word to the dictionary.
                     System.out.println("* insert a new word to dictionary *");
                     System.out.println("type your word to be added : ");
                     Scanner input2 = new Scanner(System.in);
@@ -138,7 +138,7 @@ public class LinearProbingHash<Key> {
                         System.out.println(entry2+" is added to the dictionary succesfully!!");
                     }
                     break;
-                case 3://Delete a word from the dictionary in constant time.
+                case 3://Delete a word from the dictionary.
                     System.out.println("* delete a word from dictionary *");
                     System.out.println("type your word to be deleted : ");
                     Scanner input3 = new Scanner(System.in);
@@ -150,7 +150,7 @@ public class LinearProbingHash<Key> {
                         System.out.println(entryword3+" is already in the dictionary!! ");
                     }
                     break;
-                case 4://Given a random text file, do a spell check in linear time
+                case 4://Given a random text file, do a spell check.
                     File myfile = new File("/Users/deniz/Documents/den.txt");
                     Scanner myfilesc = new Scanner(myfile);
                     ArrayList<String> errors = new ArrayList<>();
